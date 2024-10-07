@@ -5,13 +5,8 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background: rgb(100, 64, 41);
-  background: linear-gradient(
-    180deg,
-    rgba(100, 64, 41, 1) 0%,
-    rgba(143, 64, 20, 1) 61%,
-    rgba(143, 64, 20, 1) 93%
-  );
+  background: rgb(252,111,153);
+background: radial-gradient(circle, rgba(252,111,153,1) 0%, rgba(255,107,107,1) 98%);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -85,11 +80,11 @@ td {
 }
 
 th {
-  background-color: #535353;
+  background-color: #050505fa;
 }
 
 tr:nth-child(even) {
-  background-color: #535353;
+  background-color: #000000;
 }
 
 tr:hover {
